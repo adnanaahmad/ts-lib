@@ -1,0 +1,22 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.parseHeaderFromBuffer = exports.parseHeader = exports.convertBinFromWavBuffer = exports.convertBinFromWav = exports.WavError = exports.convertBinFromPcmBuffer = exports.convertBinFromPcm = exports.PcmError = exports.convertBinFromOpusBuffer = exports.convertBinFromOpus = exports.OpusError = exports.convertBinFromFile = exports.FFmpegError = void 0;
+var ffmpeg_converter_1 = require("./lib/ffmpeg-converter");
+Object.defineProperty(exports, "FFmpegError", { enumerable: true, get: function () { return ffmpeg_converter_1.FFmpegError; } });
+Object.defineProperty(exports, "convertBinFromFile", { enumerable: true, get: function () { return ffmpeg_converter_1.convertBinFromFile; } });
+var ogg_converter_1 = require("./lib/ogg-converter");
+Object.defineProperty(exports, "OpusError", { enumerable: true, get: function () { return ogg_converter_1.OpusError; } });
+Object.defineProperty(exports, "convertBinFromOpus", { enumerable: true, get: function () { return ogg_converter_1.convertBinFromOpus; } });
+Object.defineProperty(exports, "convertBinFromOpusBuffer", { enumerable: true, get: function () { return ogg_converter_1.convertBinFromOpusBuffer; } });
+var pcm_converter_1 = require("./lib/pcm-converter");
+Object.defineProperty(exports, "PcmError", { enumerable: true, get: function () { return pcm_converter_1.PcmError; } });
+Object.defineProperty(exports, "convertBinFromPcm", { enumerable: true, get: function () { return pcm_converter_1.convertBinFromPcm; } });
+Object.defineProperty(exports, "convertBinFromPcmBuffer", { enumerable: true, get: function () { return pcm_converter_1.convertBinFromPcmBuffer; } });
+var wav_converter_1 = require("./lib/wav-converter");
+Object.defineProperty(exports, "WavError", { enumerable: true, get: function () { return wav_converter_1.WavError; } });
+Object.defineProperty(exports, "convertBinFromWav", { enumerable: true, get: function () { return wav_converter_1.convertBinFromWav; } });
+Object.defineProperty(exports, "convertBinFromWavBuffer", { enumerable: true, get: function () { return wav_converter_1.convertBinFromWavBuffer; } });
+var ogg_opus_header_parser_1 = require("./lib/ogg-opus-header-parser");
+Object.defineProperty(exports, "parseHeader", { enumerable: true, get: function () { return ogg_opus_header_parser_1.parseHeader; } });
+Object.defineProperty(exports, "parseHeaderFromBuffer", { enumerable: true, get: function () { return ogg_opus_header_parser_1.parseHeaderFromBuffer; } });
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaW5kZXguanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi9zcmMvaW5kZXgudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7O0FBQUEsMkRBS2dDO0FBRjVCLCtHQUFBLFdBQVcsT0FBQTtBQUNYLHNIQUFBLGtCQUFrQixPQUFBO0FBRXRCLHFEQUs2QjtBQUh6QiwwR0FBQSxTQUFTLE9BQUE7QUFDVCxtSEFBQSxrQkFBa0IsT0FBQTtBQUNsQix5SEFBQSx3QkFBd0IsT0FBQTtBQUU1QixxREFNNkI7QUFKekIseUdBQUEsUUFBUSxPQUFBO0FBRVIsa0hBQUEsaUJBQWlCLE9BQUE7QUFDakIsd0hBQUEsdUJBQXVCLE9BQUE7QUFFM0IscURBSzZCO0FBSHpCLHlHQUFBLFFBQVEsT0FBQTtBQUNSLGtIQUFBLGlCQUFpQixPQUFBO0FBQ2pCLHdIQUFBLHVCQUF1QixPQUFBO0FBRzNCLHVFQU1zQztBQUZsQyxxSEFBQSxXQUFXLE9BQUE7QUFDWCwrSEFBQSxxQkFBcUIsT0FBQSJ9

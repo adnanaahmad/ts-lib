@@ -1,0 +1,6 @@
+export { FFmpegError, convertBinFromFile } from './lib/ffmpeg-converter';
+export { OpusError, convertBinFromOpus, convertBinFromOpusBuffer } from './lib/ogg-converter';
+export { PcmError, convertBinFromPcm, convertBinFromPcmBuffer } from './lib/pcm-converter';
+export { WavError, convertBinFromWav, convertBinFromWavBuffer } from './lib/wav-converter';
+export { parseHeader, parseHeaderFromBuffer } from './lib/ogg-opus-header-parser';
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaW5kZXguanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi9zcmMvaW5kZXgudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsT0FBTyxFQUdILFdBQVcsRUFDWCxrQkFBa0IsRUFDckIsTUFBTSx3QkFBd0IsQ0FBQztBQUNoQyxPQUFPLEVBRUgsU0FBUyxFQUNULGtCQUFrQixFQUNsQix3QkFBd0IsRUFDM0IsTUFBTSxxQkFBcUIsQ0FBQztBQUM3QixPQUFPLEVBRUgsUUFBUSxFQUVSLGlCQUFpQixFQUNqQix1QkFBdUIsRUFDMUIsTUFBTSxxQkFBcUIsQ0FBQztBQUM3QixPQUFPLEVBRUgsUUFBUSxFQUNSLGlCQUFpQixFQUNqQix1QkFBdUIsRUFDMUIsTUFBTSxxQkFBcUIsQ0FBQztBQUU3QixPQUFPLEVBSUgsV0FBVyxFQUNYLHFCQUFxQixFQUN4QixNQUFNLDhCQUE4QixDQUFDIn0=
